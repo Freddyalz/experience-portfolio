@@ -9,62 +9,90 @@
 </head>
 
 <body>
-  <header class="header">
+  <header>
     <a href="#" class="logo"><span>FreddyAlvarez</span></a>
 
     <nav class="navbar">
-      <a href="#" class="active">About Me</a>
-      <a href="#">Work</a>
-      <a href="#">Contact Me</a>
-      <a href="#">Resume</a>
+      <a href="#about-me" class="active">About Me</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact Me</a>
     </nav>
 
-    <a href="#" class="contact">Contact Me></a>
-
   </header>
+  <main>
 
-  <section class="home">
-    <div class="home-content">
-      <h2><span>About Me<br>
+    <section id="about-me">
+      <h2>
+        About Me
       </h2>
 
-      <div class="sectiondescription border-left">
+      <article>
+
         <p>My name is Freddy Alvarez I am from Minnesota and a software engineer. I have created many projects over the
           years such that you may have heard of such as Netflix and Uber. Creating video games is another one of my
           passions and have worked with brands such as 2k games and EPIC. </p>
-      </div>
 
-      <div class="img-box"> <img src="" alt="">
-      </div>
-    </div>
+        <figure>
+          <img src="" alt="">
+        </figure>
+      </article>
 
 
-  </section>
+    </section>
 
-  <section class="home">
-    <div class="home-content">
-      <h2><span>Work<br>
+    <section>
+      <h2>Work
       </h2>
 
-      <div class="sectiondescription border-left flexcolumn">
-        <a class="projectbox projectbox-large"  href=""><div><p>Challenge1</p></div></a>
-        <div>
-          <a class="projectboxtop" href=""><div><p>Project1</p></div></a>
-          <a class="projectboxtop"
-          href=""><div><p>Project2</p></div></a>
-          <a class="projectbox" href=""><div><p>Project3</p></div></a>
-          <a class="projectbox" href=""><div><p>Project4</p></div></a>
-        </div>
-      
-      </div>
+      <article class="border-left flex-column">
+        <p>Challenge1</p>
 
-<!-- use flex wrap and collums with 49% with gap -->
+        <a href="">
+          <img src="./imagecoverforrpggame.jpeg"
+            alt="video game cover of warshington woods first game devolped by freddy alvarez">
+        </a>
+      </article>
+    </section>
+    <section>
+      <h2>projects</h2>
+      <article class="flex-column">
+
+        <a href="">
+
+          <p>Project1</p>
+
+        </a>
+      </article>
+      <article class="flex-column">
+
+        <a href="">
+
+          <p>Project2</p>
+
+        </a>
+      </article>
+      <article class="flex-column">
+
+        <a href="">
+
+          <p>Project3</p>
+
+        </a>
+      </article>
+      <article class="flex-column">
+
+        <a href="">
+
+          <p>Project4</p>
+        </a>
+      </article>
+    </section>
+
+    <section>
+      <!-- use flex wrap and collums with 49% with gap -->
       <div class="img-box"> <img src="" alt="">
-      </div>
-    </div>
-
-    
-  </section>
+    </section>
+  </main>
 
   <footer id="footer">
 
